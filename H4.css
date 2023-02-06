@@ -1,0 +1,129 @@
+h1{
+    width:auto;
+    height: 40px;
+    background-image: 
+    linear-gradient(to right,red,green 30%,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    width:auto;
+    height: 40px;
+    background-image: 
+    linear-gradient(to right,red 10%,orange,yellow 50%,red);
+    text-align: center;
+    text-decoration: underline;
+}
+ul{
+    width:800px;
+    border:red solid 3px;
+    border-radius: 10px;
+    background-color: rgb(199, 224, 224);
+    margin: auto;
+}
+li{
+    margin-left: 250px;
+    padding-left: 50px;
+    font-weight: bold;     
+}
+.parent{
+    width: auto;
+    border:rgb(40, 155, 74) solid 4px;
+    border-radius: 10px;
+    background-color: rgb(109, 223, 198);
+    display: flex;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.child{
+    border:rgb(44, 173, 61) solid 3px;
+    border-radius: 10px;
+    background-color:rgb(40, 212, 218) ;
+    height:58px;
+    width:410px;
+    margin-top:1px;
+    font-weight:bold;
+}
+.parent1{
+    width: auto;
+    height: 300px;
+    border:green solid 2px;
+    background-image: radial-gradient(blue 20%,rgb(135, 238, 135)80%);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+.child1{
+    width:auto;
+    height: 80px;
+    border:red solid 2px;
+    background-color: yellow;
+    text-align: center;
+    margin: 40px;
+    padding:0px 10px 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large
+}
+.grid{
+    display:grid;
+    color:white;
+    gap:10px;
+    grid-template-columns:auto auto auto auto auto auto auto;
+}
+.box1{
+    background-color:rgb(238, 5, 5);
+    grid-column-end: span 7;
+    height: 5px;
+    font-size:x-large;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.box2{
+    background-color:rgb(13, 218, 64);
+    grid-column-end: span 2;
+    text-align:center;
+    font-size: 25px;
+    height:70px;
+}
+.box3{
+    font-size: 25px;
+    background-color:rgb(77, 128, 231);
+    grid-column-end: span 2;
+    font-size: 25px;
+    height:70px;
+}
+.box4{
+    background-color:rgb(70, 5, 249);
+    grid-column-end: span 2;
+    font-size: 20px;
+    height:70px;
+}
+.box5{
+    background-color:rgb(18, 17, 19);
+    grid-row-end:span 2;
+}
+hr{
+    margin:0px;
+}
+.box6{
+    background-color:rgb(250, 142, 0);
+    grid-column-end: span 6;
+    font-size: 20px;
+    height:150px;
+}
+.box7{
+    background-color:rgb(145, 224, 255);
+    grid-column-end: span 7;
+    height: 25px;
+    font-size: x-large;
+    font-weight: bold;
+    color:rgb(13, 13, 14);
+    text-align: center;
+    font-size: ;
+}
